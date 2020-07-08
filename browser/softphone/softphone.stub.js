@@ -6,7 +6,7 @@
 // yourself in calls :-) 
 
 // Our softphone sub consist of a service methods that updates GUI
-// and Jabra states when called. 
+// and Jabra device states when called. 
 
 function softphone_enable()
 {
