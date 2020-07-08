@@ -10,11 +10,13 @@ The example softphone shows Jabra integration with the following features:
 * Real audio experience using playback/loopback... You will only be talking to - and hearing - yourself in calls :-) 
 * Extensive ringer with both Jabra device indication + sound in speakers.
 * Two-way synchronization between softphone GUI and Jabra device when changing state. For example, when you select mute on either the softphone OR the Jabra device, both softphone and the Jabra device will be updated accordingly regardless of how it was initiated.
-* Automatic selection of Jabra device microphone and speakers (user does not have to manually select the Jabra device in the browser and OS). This is important, as speaking using a device that is not selected is typically the number ONE support issue for most softphone users.
+* Automatic selection of Jabra device microphone and speakers (user does not have to manually select the Jabra device in the browser and OS). This is important, as speaking using a device that is not selected is typically the number ONE support issue for most softphone users. Nb. this auto-selection only works when HTML page is served under https.
 
 WARNING: This example is a BETA release - it has not been fully tested.
 
 # Run the sample
+
+The example must be 
 
 TODO:
 

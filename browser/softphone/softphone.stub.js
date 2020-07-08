@@ -40,6 +40,7 @@ function softphone_startIncommingCall() {
     // To be sure we are ringing in the right (Jabra) speakers,
     // we need to identify the current jabra device and setup
     // the audio player to use it.
+    // Nb. requires https to work because of chrome requirements.
     jabra.getActiveDevice(true).then((deviceInfo) => {
       return jabra.trySetDeviceOutput(player, deviceInfo).then((success) => {
         return success ? deviceInfo : Promise.reject("Unable to set output");
@@ -158,6 +159,7 @@ function _softphone_do_call_starting()
     //
     // However, to be sure microphone and speakers are using the right 
     // (Jabra) speakers, we need to setup the audio player correctly.
+    // Nb. requires https to work because of chrome requirements.
     jabra.getUserDeviceMediaExt({}).then(({stream, deviceInfo}) => {
       player.src = undefined;
       player.srcObject = stream; // Loopback audio stream.
