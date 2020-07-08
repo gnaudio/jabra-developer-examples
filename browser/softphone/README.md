@@ -18,7 +18,7 @@ The example softphone shows Jabra integration with the following features:
 
 The [Jabra browser SDK](https://github.com/gnaudio/jabra-browser-integration) must be installed for this example to run.
 
-Optionally, if you want to run the example locally on your own PC when developing. For this you need a tool like [local-web-server](https://www.npmjs.com/package/local-web-server) (or similar) to serve pages locally under https.
+Optional step if you want to run the example locally on your own PC when developing: For this you need a tool like [local-web-server](https://www.npmjs.com/package/local-web-server) (or similar) to serve pages locally under https.
 
 To install the suggested local-web-server tool type ```npm install -g local-web-server```. 
 
@@ -39,11 +39,11 @@ Subsequently, open your browser with the address ```https://127.0.0.1:8000```
 *You may get SSL security warnings in the browser when you run locally. These can be ignored.*
 
 ## Source code
-For simplicity, the softphone example is written in plain javascript files (no modules) but we include the Jabra [typescript](https://www.typescriptlang.org/) declerations on top of most source files for better editor support. 
+For simplicity, the softphone example is written in plain javascript files (no modules) but we include the Jabra [typescript](https://www.typescriptlang.org/) declarations on top of most source files for better editor support. 
 
 However, for non-trival softphones integrations we suggest you use [typescript](https://www.typescriptlang.org/), proper modularity and our npm module [@gnaudio/jabra-browser-integration](https://www.npmjs.com/package/@gnaudio/jabra-browser-integration).
 
 The two most important source code files to look at are:
 * ```softphone.stub.js``` that shows how to control a Jabra device from a fictive softphone.
-* ```softphone.jabra.js``` that shows how to initialize the Jabra browser sdk and inform a softphone off key Jabra device events.
+* ```softphone.jabra.js``` that shows how to initialize the Jabra browser sdk and inform a softphone of key Jabra device events.
 
