@@ -1,7 +1,7 @@
 # Jabra Softphone example (BETA)
 
 ## About this example
-This simple example shows how to add web based softphone support for a Jabra device using the [Jabra browser SDK](https://github.com/gnaudio/jabra-browser-integration).
+This simple example shows how to add web (Chrome) based softphone support for a Jabra device using the [Jabra browser SDK](https://github.com/gnaudio/jabra-browser-integration).
 
 The example softphone shows Jabra integration with the following features:
 * Can run directly in Chrome with no additional installation steps apart from the [Jabra browser SDK](https://github.com/gnaudio/jabra-browser-integration).
@@ -24,9 +24,9 @@ To install the suggested local-web-server tool type ```npm install -g local-web-
 
 # Run the sample
 
-## Run pre-hosted version (recommended)
+## Run pre-build, hosted version (recommended)
 
-TODO: ...
+Click [here to run](https://gnaudio.github.io/jabra-developer-examples/softphone) the softphone example (chrome browser only).
 
 ## Run locally (for development)
 
@@ -34,7 +34,7 @@ Using the above mentioned local-web-server tool you can run this project locally
 
 ```ws --https``` 
 
-Subsequently, open your browser with the address ```https://127.0.0.1:8000```
+Subsequently, open your Chrome browser with the address ```https://127.0.0.1:8000```
 
 *You may get SSL security warnings in the browser when you run locally. These can be ignored.*
 
