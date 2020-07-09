@@ -26,7 +26,7 @@ To install the suggested local-web-server tool type ```npm install -g local-web-
 
 ## Run pre-hosted version (recommended)
 
-TODO:
+TODO: ...
 
 ## Run locally (for development)
 
